@@ -1,0 +1,30 @@
+{
+    "app_type": "APP",
+    "app_title": "Hello Sample App",
+    "app_icon": "<<<your-icon-file>>>",
+    "app_version": "1.0",
+    "app_display_title": {
+        "en": "Hello Sample App"
+    },
+    "app_description_short": {
+        "en": "Just a quick-start example for Mozello App developers"
+    },
+    "app_description_full": {
+        "en": "Just a quick-start example for Mozello App developers. This sample app demonstrates how to include hello.js into any Mozello website that installs the app."
+    },
+    "app_vendor": {
+        "company_name": "<<<name>>>",
+        "support_email": "<<<email>>>",
+        "support_phone": "<<<phone>>>",
+        "developer_email": "<<<email>>>",
+        "company_url": "<<<url>>>",
+        "support_url": "<<<url>>>",
+        "privacy_url": "<<<url>>>",
+        "tos_url": "<<<url>>>"
+    },
+    "app_permissions": ["FULL"],
+    "app_tab_mode": "self",
+    "app_install_url": "<<<app-hosted-url>>>/install.php",
+    "app_settings_url": "<<<app-hosted-url>>>/settings.php",
+    "app_secret": "<<<generate-random-string-here>>>"
+}
