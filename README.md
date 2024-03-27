@@ -9,10 +9,10 @@ This sample App simply inserts `hello.js` script into the website, which outputs
 1. Create Mozello account if you haven't already.
 2. The app needs to be hosted in a public location. You will need to have the public URL to complete the next steps.
 3. Modify `meta/manifest.json` and replace the sample values with your data. Generate and fill in your App secret.
-4. Submit the manifest via [App integration setup portal](https://www.mozello.com/apps/api/apps/) and save the resulting App ID and API key.
+4. Submit the manifest via [App integration setup portal](https://www.mozello.com/apps/api/apps/) and save the resulting App ID and API key. You can also re-submit your manifest later if it is changed.
 5. Modify `config.php`. Fill in ID and API key from the App integration setup portal and the App secret from the manifest.
 6. Modify `app.php`. Replace script URL with a valid location or replace the script snippet altogether.
-7. Upload the modified app files to your host.
+7. Upload `public` and `libs` to your host.
 8. The app will be available in your Mozello website. The snippet will be inserted in your website in the preview mode but not the design mode.
 
 # Next steps
